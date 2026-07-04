@@ -127,7 +127,7 @@ def cmd_about(message):
         "🔧 نسخه ربات: <code>2.0.0</code>\n"
         "🐍 زبان: Python 3.11+\n"
         "📚 کتابخانه: pyTelegramBotAPI\n\n"
-        "📧 ارتباط: @AmirAli_Developer\n"
+        "📧 ارتباط: @amirforozanasl"
         "⭐ <i>ساخته شده با عشق</i>"
     )
     bot.send_message(message.chat.id, about)
