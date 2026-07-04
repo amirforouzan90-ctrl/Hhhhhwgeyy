@@ -311,9 +311,7 @@ def quick_search(message):
 
 
 # ─── هندلر خطاهای اصلی ──────────────────────────────────────────
-@bot.apihelper.logger  # noqa
-def log_api_error(resp):
-    logger.warning(f"Telegram API warning: {resp}")
+
 
 
 # ─── اجرای ربات ─────────────────────────────────────────────────
